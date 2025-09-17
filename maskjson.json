@@ -1,0 +1,32 @@
+{
+    "Maska": [
+        {
+            "id": 1,
+            "name": "Bob",
+            "adress": [
+                {
+                    "Streat": "Milan",
+                    "home": 3,
+                    "flat": 5
+                }
+            ],
+            "Gender": "Male"
+        },
+        {
+            "id": 2,
+            "name": [
+                "Mia"
+            ],
+            "adress": [
+                {
+                    "Streat": "Solun",
+                    "home": 5,
+                    "flat": 4
+                }
+            ],
+            "Gender": [
+                "Famale"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+<User>
+    <men>
+        <id>1</id>
+        <name>Bob</name>
+        <adress>
+            <streat>Milan</streat>
+            <home>3</home>
+            <flat>5</flat>
+        </adress>
+        <gender>Male</gender>
+    </men>
+    <fam>
+        <id>2</id>
+        <name>Milan</name>
+        <adress>
+           <streat>Solum</streat>
+            <home>5</home>
+           <flat>4</flat>
+        </adress>
+        <gender>Famale</gender>
+    </fam>
+</User>
