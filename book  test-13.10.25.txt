@@ -1,0 +1,38 @@
+class Book():
+    def __init__(self, name, author, list, type):
+        self.name = name
+        self.author = author
+        self.list = list
+        self.type = type
+        self.lock = True
+        Book.cout += 1  # величивает количество собак на 1
+
+    def type_book(self):
+        if self.type== "Cказка":
+            print(f'Книга это сказка')
+        elif self.type== "Учебник":
+            print(f'Книга это учебник')
+        elif self.type== "Дневник":
+            print(f'Книга это дневник')
+
+    def descriptin(self):
+        return f'{self.name} - автор: {self.author}, {self.list} страниц\а, является {self.type}/ой-ом'
+
+    def fead(self):
+        if self.lock: # если закрыта
+            self.lock= False # открыть
+            return f'{self.name} открыт(a)' # вернуть ответ "открыт\а" сохранить
+        else: # иначе
+            return f'{self.name} уже открыт(а)' # вернуть ответ "уже открыт\а" сохранить
+
+book0=Book('Математика', 'гос', '126', 'Учебник')
+book1=Book('Золотая рыбка', 'Пушкин', '30', 'Сказка')
+book2=Book('Frost Punk', 'гос', '295', 'Дневник')
+
+print(book0.descriptin())
+print(book0.type_book())
+print(book0.fead())
+
+print(book1.descriptin())
+print(book1.type_book())
+print(book1.fead())
